@@ -472,9 +472,22 @@ footer ul li a {
         display: none; 
     }
 
+    .grid {
+        display: flex; /* Altera para flex para garantir centralização */
+        flex-direction: column; /* Alinha itens em coluna */
+        align-items: center; /* Centraliza horizontalmente */
+        justify-content: center; /* Centraliza verticalmente se houver espaço */
+    }
+
     .grid-card {
         padding: 1rem;
         font-size: 0.9rem; 
+        width: 90%; /* Define uma largura para os cartões */
+        display: flex; /* Adiciona flex para o conteúdo interno */
+        justify-content: center; /* Centraliza conteúdo interno */
+        align-items: center; /* Centraliza verticalmente */
+        text-align: center; /* Centraliza texto */
+        margin: 0.5rem 0; /* Adiciona margem para espaçamento */
     }
 
     .project-card {
@@ -503,5 +516,9 @@ footer ul li a {
 
     footer ul {
         gap: 1rem; 
+    }
+
+    .copyright {
+        margin-left: 4rem;
     }
 }
