@@ -457,15 +457,14 @@ footer ul li a {
 
     header{
         padding: 1rem 5rem;
-        gap: 15vw;
-        width: 80vw;
+        gap: 8rem;
     }
 
     header.logo{
         font-size: 1.5rem;
     }
     .about-container img{
-        width:80vw ;
+        width:80vw;
     }
     .input-box input{
         padding: 0.5rem 3rem;
@@ -477,8 +476,5 @@ footer ul li a {
     }
     footer ul{
         gap: 1rem;
-    }
-    .grid{
-        margin-left: 10px;
     }
 }
