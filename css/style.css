@@ -367,10 +367,16 @@ footer ul li a {
 
     .experience-info {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-info img {
+        width: 60vw; 
+        margin-top: 2rem; 
     }
 
     .input-box input {
-        padding: 2rem 5rem;
+        padding: 1.5rem 5rem;
         font-size: 2.5rem;
     }
 
@@ -379,7 +385,7 @@ footer ul li a {
     }
 
     .input-box i {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -390,20 +396,27 @@ footer ul li a {
     }
 
     header .logo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     header .visit-btn {
-        display: none;
+        display: none; 
     }
 
     .about-container {
         flex-direction: column;
+        align-items: center; 
+    }
+
+    .about img {
+        width: 70vw; 
+        margin-bottom: 2rem;
     }
 
     .input-box input {
         padding: 1rem 2rem;
         font-size: 1.8rem;
+        width: 90%; 
     }
 
     .input-box input::placeholder {
@@ -411,11 +424,11 @@ footer ul li a {
     }
 
     .input-box i {
-        display: none;
+        display: none; 
     }
 
     .experience-info img {
-        width: 70vw;
+        width: 80vw; 
     }
 }
 
@@ -435,36 +448,24 @@ footer ul li a {
         flex-direction: column;
         text-align: center;
         background: rgba(0, 0, 0, 0.9);
-        border-radius: 3rem;
-        display: none;
+        border-radius: 1rem;
+        display: none; 
     }
 
     .nav-links li {
-        margin-top: 1.5rem;
-        padding: 1rem;
-    }
-
-    .nav-links .active {
-        display: block;
-    }
-
-    header {
-        padding: 1rem 5rem;
-        gap: 8rem;
-    }
-
-    header .logo {
-        font-size: 1.5rem;
+        margin-top: 1rem; 
+        padding: 1rem 0; 
     }
 
     .about-container img {
-        width: 80vw;
+        width: 80vw; 
+        margin-bottom: 2rem;
     }
 
     .input-box input {
         padding: 0.5rem 3rem;
-        width: 80%;
-        font-size: 1.5rem;
+        width: 90%; 
+        font-size: 1.5rem; 
     }
 
     .input-box input::placeholder {
@@ -472,6 +473,6 @@ footer ul li a {
     }
 
     footer ul {
-        gap: 1rem;
+        gap: 1rem; 
     }
 }
