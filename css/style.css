@@ -12,9 +12,10 @@ header {
     position: fixed;
     top: 1rem;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5rem;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
@@ -106,7 +107,7 @@ section {
     gap: 10rem;
 }
 
-.about img {
+.about .about-container img {
     width: 30vw;
     border-radius: 50%;
 }
@@ -128,9 +129,13 @@ section {
 
 .info-box h1 {
     font-size: 4rem;
+    font-weight: 600;
+}
+.info-box span{
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
     background-clip: text;
     color: transparent;
+    font-size: 2rem;
 }
 
 .btn-group {
@@ -155,9 +160,8 @@ section {
 
 .socials {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     text-decoration: none;
-    padding-left: 3rem;
 }
 
 .socials i {
@@ -193,7 +197,7 @@ section {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 2rem;
 }
 
@@ -221,9 +225,9 @@ section {
 }
 
 .grid-card img {
-    width: 50%;
+    width: 40%;
     height: 100%;
-    margin-left: 5vw;
+
 }
 
 .grid-card span {
@@ -243,7 +247,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to right, #009dff, #ff00ff);
+    background: linear-gradient(to bottom, #009dff, #ff00ff);
 }
 
 .projects-grid {
@@ -351,7 +355,7 @@ footer ul li a {
 }
 
 .copyright {
-    font-size: 1rem;
+    font-size: 300;
     margin-top: 2rem;
 }
 
@@ -380,7 +384,7 @@ footer ul li a {
     }
 
     .input-box i{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -397,17 +401,14 @@ footer ul li a {
     header .visit-btn {
         display: none; 
     }
-
+    
     .about-container {
         flex-direction: column;
         align-items: center; 
     }
-
-
     .input-box input {
         padding: 1rem 2rem;
         font-size: 1.8rem;
-        width: 90%; 
     }
 
     .input-box input::placeholder {
@@ -433,7 +434,7 @@ footer ul li a {
 
     .nav-links {
         position: absolute;
-        top: 100%;
+        top: 100%; 
         margin-top: 1rem;
         width: 100%;
         padding: 1rem;
@@ -441,30 +442,26 @@ footer ul li a {
         display: flex;
         flex-direction: column;
         text-align: center;
-        background: rgba(0, 0, 0, 0.9);
+        background-color:rgba(0, 0, 0, 0.9) ;
         border-radius: 3rem;
-        display:none ;
-    }
-
-    .nav-links li {
-        margin-top: 1.5rem; 
-        padding: 1rem; 
-    }
-
+}
+    .nav-links li{
+        margin-top: 1.5rem;
+        padding: 1rem;
+}
     .nav-links.active{
         display: block;
     }
-
     header{
-        padding: 1rem 5rem;
-        gap: 8rem;
+        padding: 1rem 3rem;
+        gap: 2rem;
     }
-
-    header.logo{
+    header .logo{
         font-size: 1.5rem;
     }
+
     .about-container img{
-        width:80vw;
+        width: 80vh;
     }
     .input-box input{
         padding: 0.5rem 3rem;
@@ -475,6 +472,6 @@ footer ul li a {
         font-size: 1.5rem;
     }
     footer ul{
-        gap: 1rem;
+        gap:1rem ;
     }
 }
