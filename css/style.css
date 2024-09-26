@@ -478,5 +478,7 @@ footer ul li a {
     footer ul{
         gap: 1rem;
     }
-    
+    .grid{
+        margin-left: 10px;
+    }
 }
