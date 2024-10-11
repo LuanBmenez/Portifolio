@@ -443,15 +443,27 @@ footer ul li a {
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color:rgba(0, 0, 0, 0.9) ;
+        background-color: rgba(0, 0, 0, 0.9);
         border-radius: 3rem;
-}
+        display: none; 
+    }
     .nav-links li{
         margin-top: 1.5rem;
         padding: 1rem;
 }
     .nav-links.active{
-        display: block;
+        display: flex;
+        position: absolute; 
+        top: 100%; 
+        left: 0;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 3rem;
     }
     header{
         padding: 1rem 3rem;
