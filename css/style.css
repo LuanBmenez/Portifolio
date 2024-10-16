@@ -301,7 +301,9 @@
     font-size: 2rem;
     font-weight: 500;
   }
-  
+  .projeto-cartao p{
+    font-size: 1.1rem;
+  }
   .input-box {
     display: flex;
     flex-direction: column;
@@ -384,7 +386,7 @@
     }
   
     .experiencia-info {
-      /* flex-direction: column; */
+
       gap: 12rem;
       align-items: center;
     }
@@ -406,6 +408,9 @@
       width: 70vw;
       min-width: 314px;
     }
+  }
+  .box p{
+    font-size: 1rem;
   }
   
   @media (max-width: 1108px) {
