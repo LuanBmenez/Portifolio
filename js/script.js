@@ -17,3 +17,10 @@ function enviarmensagem(){
 
     window.open(url, '_blank');
 }
+function abrirCurriculo() {
+    // Caminho do seu PDF na pasta 'images'
+    const caminhoPdf = 'images/Curriculo.pdf';
+
+    // Abre o PDF em uma nova aba
+    window.open(caminhoPdf, '_blank');
+}
